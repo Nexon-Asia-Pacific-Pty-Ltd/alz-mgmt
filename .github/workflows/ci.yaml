@@ -14,7 +14,7 @@ on:
 
 jobs:
   validate_and_plan:
-    uses: Nexon-Asia-Pacific-Pty-Ltd/masterton-alz-templates/.github/workflows/ci-template.yaml@main
+    uses: Nexon-Asia-Pacific-Pty-Ltd/masterton-alz/.github/workflows/ci-template.yaml@main
     name: 'CI'
     permissions:
       id-token: write
