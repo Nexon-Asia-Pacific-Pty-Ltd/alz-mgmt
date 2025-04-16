@@ -22,7 +22,7 @@ on:
 
 jobs:
   plan_and_apply:
-    uses: Nexon-Asia-Pacific-Pty-Ltd/masterton-alz-templates/.github/workflows/cd-template.yaml@main
+    uses: Nexon-Asia-Pacific-Pty-Ltd/masterton-alz/.github/workflows/cd-template.yaml@main
     name: 'CD'
     permissions:
       id-token: write
